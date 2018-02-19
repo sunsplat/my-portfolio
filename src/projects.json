@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Wikipedia Honey Pot",
+        "description": "Search Wikipedia for your favorite topic.",
+        "app_link": "https://sunsplat.github.io/fcc_wikipedia/index.html",
+        "code_link": "https://github.com/sunsplat/fcc_wikipedia",
+        "tech": "JavaScript, API, HTML, CSS"
+    },
+    {
+        "name": "Deep Thoughts",
+        "description": "Jack Handey random quote generator.",
+        "app_link": "http://sunsplat.github.io/fcc_quotes/index.html",
+        "code_link": "https://github.com/sunsplat/fcc_quotes",
+        "tech": "JavaScript, API, jQuery, HTML, CSS"
+    },
+    {
+        "name": "Guessing Game",
+        "description": "Guess the secret number",
+        "app_link": "http://sunsplat.github.io/fcc_quotes/index.html",
+        "code_link": "https://github.com/sunsplat/fcc_quotes",
+        "tech": "JavaScript, API, jQuery, HTML, CSS"
+    },
+    {
+        "name": "Rock, Paper, Scissors",
+        "description": "Include our command line Rock, Paper, Scissors gem in your app!",
+        "app_link": "https://github.com/sunsplat/bestgemever",
+        "code_link": "https://github.com/sunsplat/bestgemever",
+        "tech": "Ruby"
+    }
+]
