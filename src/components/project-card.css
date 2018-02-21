@@ -1,0 +1,8 @@
+.Projects li {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    background-color: #000;
+    margin: 50px;
+    color: #fff;
+}

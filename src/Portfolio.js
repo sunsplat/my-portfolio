@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './assets/fcc_wiki.png';
 import './Portfolio.css';
 import ProjectCard from './components/project-card';
-import PortfolioHeader from './components/header';
+import SocialMediaLinks from './components/social-media-links';
 
 class Portfolio extends Component {
   constructor(props) {
@@ -19,12 +19,12 @@ class Portfolio extends Component {
     ];
   }
   render() {
-    this.filteredArray = this.props.projects.filter(function(project) {
-
-    });
     return (
       <div className="Portfolio">
-        <PortfolioHeader className="Portfolio-header" h1ClassName="Portfolio-title" title="Ellen Sun" socialLinks={this.socialLinks}/>
+        <header className="Portfolio-header">
+          <h1 className="Portfolio-title">Ellen Sun</h1>
+          <SocialMediaLinks socialLinks={this.socialLinks}/>
+        </header>
         <ProjectCard className="Projects" projects={this.props.projects}/>
       </div>
     );
