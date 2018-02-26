@@ -7,3 +7,9 @@ body {
 * {
   box-sizing: border-box;
 }
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #8a8a8a;
+}

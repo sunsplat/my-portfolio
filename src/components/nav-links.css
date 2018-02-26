@@ -1,0 +1,15 @@
+.navLinks li {
+  list-style-type: square;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #222;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #222;
+}
