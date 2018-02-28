@@ -20,9 +20,9 @@ export default class Contact extends Component {
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" placeholder="Harry Potter" id="name" />
           <label htmlFor="email">Email:</label>
-          <input type="email" name="_replyto" id="email" />
+          <input type="email" name="_replyto" id="email" placeholder="hpotter@hogwarts.edu" />
           <label htmlFor="message">Message:</label>
-          <input type="textarea" name="message" placeholder="I just wanted to say..." id="message"/>
+          <textarea name="message" placeholder="I just wanted to say..." id="message"></textarea>
           <input type="submit" value="Send"/>
         </form>
       </div>
