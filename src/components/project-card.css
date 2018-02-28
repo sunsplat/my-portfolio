@@ -1,8 +1,13 @@
+.Projects {
+    width: 100%;
+    margin-top: 50px;
+}
+
 .Projects li {
-    width: 400px;
+    width: 50%;
     height: 400px;
     display: inline-block;
     background-color: #000;
-    margin: 50px;
+    /* margin: 50px; */
     color: #fff;
 }

@@ -1,10 +1,30 @@
 import React from 'react';
 import './nav-links.css';
+import { NavLink } from "react-router-dom";
 
 export default function NavLinks(props) {
-    const links = props.navLinks.map((link, index) => 
+    const navLinks = [
+        {
+          "name": "Portfolio",
+          "link": "/portfolio"
+        },
+        {
+          "name": "About",
+          "link": "/about"
+        },
+        {
+          "name": "Contact",
+          "link": "/contact"
+        },
+        {
+          "name": "Experience",
+          "link": "/experience"
+        }
+      ];
+
+    const links = navLinks.map((link, index) => 
         <li key={index}>
-            <a href={link.link}>{link.name}</a>
+            <NavLink onClick={props.onClick} to={link.link}>{link.name}</NavLink>
         </li>
     );
 

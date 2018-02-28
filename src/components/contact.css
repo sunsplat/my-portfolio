@@ -1,0 +1,19 @@
+.contact {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contact-info {
+    padding: 50px;
+    border-right: 1px solid black;
+    float: left;
+}
+
+#contact-form {
+    padding: 50px;
+    float: left;
+}
+
+#gotcha {
+    display: none;
+}

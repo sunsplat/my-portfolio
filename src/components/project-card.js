@@ -1,5 +1,7 @@
 import React from 'react';
 import './project-card.css';
+// import imgWiki from '../assets/fcc_wiki.png';
+// import imgGuessingGame from '../assets/guessing_game.png';
 
 export default function ProjectCard(props) {
     const projects = props.projects.map((project, index) => 
@@ -7,8 +9,7 @@ export default function ProjectCard(props) {
             <p>{project.name}</p>
             <img id={props.imgId}
                 className={props.imgClassName}
-                alt={props.imgAlt} 
-                src={"../assets/" + project.image || "http://via.placeholder.com/350x350"} />
+                alt={props.imgAlt} src={project.image}/>
             <a href={project.app_link} target="_blank">Demo</a>
         </li>
     );

@@ -8,7 +8,7 @@ ul {
   float: left;
 }
 
-.Portfolio-header {
+.header {
   height: auto;
   position: fixed;
   top: 0;
@@ -20,7 +20,7 @@ ul {
   right: 0;
 }
 
-.Portfolio-header h1 {
+.header h1 {
   float: right;
   margin-top: 0;
   margin-bottom: 0;
@@ -29,8 +29,8 @@ ul {
   display: block;
 }
 
-.Portfolio-projects {
-  margin-top: 40px;
+.content {
+  margin-top: 100px;
   padding-top: 20px;
 }
 

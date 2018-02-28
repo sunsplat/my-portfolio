@@ -5,7 +5,7 @@
         "app_link": "https://sunsplat.github.io/fcc_wikipedia/index.html",
         "code_link": "https://github.com/sunsplat/fcc_wikipedia",
         "tech": "JavaScript, API, HTML, CSS",
-        "image": "fcc_wiki.png"
+        "image": "../assets/fcc_wiki.png"
     },
     {
         "name": "Deep Thoughts",
@@ -13,7 +13,7 @@
         "app_link": "http://sunsplat.github.io/fcc_quotes/index.html",
         "code_link": "https://github.com/sunsplat/fcc_quotes",
         "tech": "JavaScript, API, jQuery, HTML, CSS",
-        "image": "deep_thoughts.png"
+        "image": "../assets/deep_thoughts.png"
     },
     {
         "name": "Guessing Game",
@@ -21,7 +21,7 @@
         "app_link": "https://sunsplat.github.io/react-guessing-game/",
         "code_link": "https://github.com/sunsplat/react-guessing-game",
         "tech": "JavaScript, API, jQuery, HTML, CSS",
-        "image": "guessing_game.png"
+        "image": "../assets/guessing_game.png"
     },
     {
         "name": "Rock, Paper, Scissors",
@@ -29,6 +29,6 @@
         "app_link": "https://github.com/sunsplat/bestgemever",
         "code_link": "https://github.com/sunsplat/bestgemever",
         "tech": "Ruby",
-        "image": "rps.png"
+        "image": "../assets/rps.png"
     }
 ]
