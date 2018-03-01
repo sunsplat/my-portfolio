@@ -30,8 +30,15 @@ ul {
 }
 
 .content {
-  margin-top: 100px;
-  padding-top: 20px;
+  margin: 120px 0;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
 }
 
 @keyframes App-logo-spin {

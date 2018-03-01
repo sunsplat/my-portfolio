@@ -13,12 +13,12 @@ export default function NavLinks(props) {
           "link": "/about"
         },
         {
-          "name": "Contact",
-          "link": "/contact"
+          "name": "Resume",
+          "link": "/resume"
         },
         {
-          "name": "Experience",
-          "link": "/experience"
+          "name": "Contact",
+          "link": "/contact"
         }
       ];
 

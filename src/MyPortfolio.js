@@ -3,7 +3,7 @@ import './MyPortfolio.css';
 import SocialMediaLinks from './components/social-media-links';
 import NavLinks from './components/nav-links';
 
-import { Route, NavLink, HashRouter } from "react-router-dom";
+import { Route, HashRouter } from "react-router-dom";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -11,16 +11,6 @@ import Contact from "./components/Contact";
 class MyPortfolio extends Component {
   constructor(props) {
     super(props);
-    this.socialLinks = [
-      {
-        "name": "Github",
-        "link": "http://github.com/sunsplat"
-      },
-      {
-        "name": "LinkedIn",
-        "link": "http://linkedin.com/in/msellensun"
-      }
-    ];
   }
 
   render() {
@@ -30,13 +20,15 @@ class MyPortfolio extends Component {
           <header className="header">
             <h1 className="Portfolio-title">EllenSun</h1>
             <NavLinks />
-            <SocialMediaLinks socialLinks={this.socialLinks}/>
           </header>
           <section className="content">
             <Route path="/portfolio" component={Portfolio}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
           </section>
+          <footer>
+            <SocialMediaLinks />
+          </footer>
         </div>
       </HashRouter>
     );
