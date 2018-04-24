@@ -6,7 +6,7 @@ export default function NavLinks(props) {
     const navLinks = [
         {
           "name": "Portfolio",
-          "link": "/portfolio"
+          "link": "/"
         },
         {
           "name": "About",
@@ -24,7 +24,7 @@ export default function NavLinks(props) {
 
     const links = navLinks.map((link, index) => 
         <li key={index}>
-            <NavLink onClick={props.onClick} to={link.link}>{link.name}</NavLink>
+            <NavLink exact to={link.link}>{link.name}</NavLink>
         </li>
     );
 

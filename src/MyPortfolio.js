@@ -22,7 +22,7 @@ class MyPortfolio extends Component {
             <NavLinks />
           </header>
           <section className="content">
-            <Route path="/portfolio" component={Portfolio}/>
+            <Route exact path="/" component={Portfolio}/>
             <Route path="/about" component={About}/>
             <Route path="/contact" component={Contact}/>
           </section>
