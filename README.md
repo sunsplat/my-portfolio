@@ -34,6 +34,6 @@ LAMP stack (Linux, Apache, MySQL, PHP), React, JavaScript, jQuery, Ruby, Ruby on
 * Mandarin Chinese (Professional-working level)  
 * English (Native)
 
-============================== 
-To run locally:
+----
+To run locally:    
 `npm run start`
