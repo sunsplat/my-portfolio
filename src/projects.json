@@ -13,7 +13,7 @@
         "app_link": "http://sunsplat.github.io/fcc_quotes/index.html",
         "code_link": "https://github.com/sunsplat/fcc_quotes",
         "tech": "JavaScript, API, jQuery, HTML, CSS",
-        "image": "../assets/deep_thoughts.png"
+        "image": "https://placeimg.com/400/400/tech/grayscale"
     },
     {
         "name": "Guessing Game",
@@ -29,6 +29,6 @@
         "app_link": "https://github.com/sunsplat/bestgemever",
         "code_link": "https://github.com/sunsplat/bestgemever",
         "tech": "Ruby",
-        "image": "../assets/rps.png"
+        "image": "https://picsum.photos/400/400?image=0"
     }
 ]

@@ -21,15 +21,19 @@ Twitter: [@ms_ellerz](http://www.twitter.com/ms_ellerz)
 
 
 *********
-##My Specialties
+## My Specialties
 
 
 LAMP stack (Linux, Apache, MySQL, PHP), React, JavaScript, jQuery, Ruby, Ruby on Rails, Git, SVN, PostgreSQL, Vagrant, VirtualBox, HTML, CSS, Wordpress, Adobe Photoshop, Adobe Illustrator, Adobe Lightroom
 
 
 ***************
-##Languages:
+## Languages:
 
 
 * Mandarin Chinese (Professional-working level)  
 * English (Native)
+
+============================== 
+To run locally:
+`npm run start`

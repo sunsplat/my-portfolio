@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ProjectCard from './project-card';
 import projects from '../projects.json';
-import './Portfolio.css';
+import '../css/Portfolio.css';
 
 export default class Project extends Component {
   render() {

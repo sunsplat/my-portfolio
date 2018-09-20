@@ -1,5 +1,5 @@
 import React from 'react';
-import './nav-links.css';
+import '../css/nav-links.css';
 import { NavLink } from "react-router-dom";
 
 export default function NavLinks(props) {
@@ -22,7 +22,7 @@ export default function NavLinks(props) {
         }
       ];
 
-    const links = navLinks.map((link, index) => 
+    const links = navLinks.map((link, index) =>
         <li key={index}>
             <NavLink exact to={link.link}>{link.name}</NavLink>
         </li>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './social-media-links.css';
+import '../css/social-media-links.css';
 
 export default function SocialMediaLinks(props) {
     const socialLinks = [
@@ -17,7 +17,7 @@ export default function SocialMediaLinks(props) {
         }
       ];
 
-    const links = socialLinks.map((link, index) => 
+    const links = socialLinks.map((link, index) =>
         <li key={index}>
             <a href={link.link} target="_blank"><i className={"fab fa-2x fa-" + link.name}></i></a>
         </li>
