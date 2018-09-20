@@ -21,7 +21,7 @@
         "app_link": "https://sunsplat.github.io/react-guessing-game/",
         "code_link": "https://github.com/sunsplat/react-guessing-game",
         "tech": "JavaScript, API, jQuery, HTML, CSS",
-        "image": "../media/guessing_game.png"
+        "image": "../assets/guessing_game.png"
     },
     {
         "name": "Rock, Paper, Scissors",
