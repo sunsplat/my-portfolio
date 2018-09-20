@@ -12,4 +12,5 @@ ul.Projects {
     display: inline-block;
     background-color: #000;
     color: #fff;
+    float: left;
 }
