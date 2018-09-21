@@ -11,5 +11,9 @@ body {
 a {
   text-transform: uppercase;
   text-decoration: none;
-  color: #8a8a8a;
+  color: #8a8a8a !important;
+}
+
+ul li {
+    list-style: none;
 }
