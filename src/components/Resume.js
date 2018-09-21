@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Container } from 'reactstrap';
 import { Page, Document } from 'react-pdf';
 import ResumePdf from '../media/ESun_Resume_2018.pdf';
 import '../css/resume.css';
@@ -25,7 +26,7 @@ export default class Resume extends Component {
     const { pageNumber, numPages } = this.state;
 
     return (
-      <div className="resume">
+      <Container className="resume">
         <Document
           file={ResumePdf}
           onLoadSuccess={this.onDocumentLoad}
@@ -37,7 +38,7 @@ export default class Resume extends Component {
             &nbsp; Page {pageNumber} of {numPages} &nbsp;
             <button onClick={() => this.nextPage()}>&rarr;</button>
         </div>
-      </div>
+      </Container>
     );
   }
   //   // ({ loaded, total }) => alert('Loading a document: ' + (loaded / total) * 100 + '%');

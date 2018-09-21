@@ -1,6 +1,7 @@
 import React from 'react';
 import '../css/nav-links.css';
-import { NavLink } from "react-router-dom";
+import { Nav, NavItem, NavLink } from 'reactstrap';
+// import { NavLink } from "react-router-dom";
 
 export default function NavLinks(props) {
     const navLinks = [
@@ -23,14 +24,14 @@ export default function NavLinks(props) {
       ];
 
     const links = navLinks.map((link, index) =>
-        <li key={index}>
+        <NavItem key={index}>
             <NavLink exact to={link.link}>{link.name}</NavLink>
-        </li>
+        </NavItem>
     );
 
     return (
-        <ul className="navLinks">
+        <Nav expand="md" className="navLinks">
             {links}
-        </ul>
+        </Nav>
     );
 }

@@ -24,7 +24,7 @@ ul {
   right: 0;
 }
 
-.header h1 {
+#navbar-brand {
   float: right;
   margin-top: 0;
   margin-bottom: 0;
